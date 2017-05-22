@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Redact",
+  "description": "Automatically redacts usernames from social media pages.",
+  "version": "1.0",
+
+  "background": {
+    "scripts": ["redact.js"],
+    "persistent": false
+  },
+
+  "browser_action": {
+    "default_icon": "redact_logo.png",
+    "default_title": "Redact"
+  },
+
+  "permissions": [
+    "activeTab",
+    "https://*.reddit.com/"
+  ]
+}

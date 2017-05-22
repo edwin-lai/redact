@@ -1,0 +1,4 @@
+.author, a[href^="https://www.reddit.com/user/"] {
+  background: black;
+  color: black !important; 
+}
